@@ -1,0 +1,55 @@
+//
+// variables.scss
+//
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700');
+
+// Color variables
+$white: #ffffff;
+$black: #000000;
+
+$custom: #ff8700;
+
+$primary: #005bea;
+$success: #12925b;
+$info: #3bc3e9;
+$warning: #ffbb44;
+$danger: #ea553d;
+$dark: #343a40;
+$muted: #cccccc;
+$light: #f3f3f3;
+$body-color: #212529;
+$body-bg-primary: #0e6cff;
+
+// stylelint-disable
+$gray-100: #f8f9fa;
+$gray-200: #f3f3f3;
+$gray-300: #f8f9fa;
+$gray-400: #e6effe;
+$gray-500: #adb5bd;
+$gray-600: #ffffff40;
+$gray-700: #343a40;
+$gray-800: #212529;
+$gray-900: #141c26;
+
+
+
+$colors: (
+    "primary": $primary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "orange": $custom,
+    "dark": $dark,
+    "muted": $muted,
+    "white": $white,
+    "light": $light
+);
+
+
+// Body Background
+$body-bg: #f5f5f5;
+
+$font-family-base: 'Rubik', sans-serif;

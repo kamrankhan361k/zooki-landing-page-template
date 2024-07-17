@@ -1,0 +1,106 @@
+@media (min-width: 200px) and (max-width: 768px) {
+  .mt-40 {
+    margin-top: 40px;
+  }
+
+  .contact-box {
+    padding: 8px !important;
+  }
+
+  .home-3-title {
+    font-size: 36px;
+  }
+
+  .video-button {
+    position: static;
+  }
+
+
+  .home-4-content {
+    max-width: 100%;
+  }
+
+  .home-7-bg {
+    padding: 100px 0 70px 0;
+  }
+
+  .back-slide {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+
+  .home-2-bg,
+  .home-1-bg {
+    padding: 200px 0 150px 0;
+  }
+
+  .home-3-bg {
+    padding: 210px 0;
+  }
+
+  .home-4-bg {
+    padding: 200px 0 170px 0;
+  }
+
+  .home-5-bg {
+    padding: 180px 0 130px 0;
+  }
+
+  .home-6-bg {
+    padding: 130px 0 110px 0;
+  }
+
+  .home-8-bg {
+    padding: 190px 0 130px 0;
+  }
+}
+
+@media(max-width:375px) {
+  .testi-content .testi-box .quote-img img {
+    top: 5px;
+    margin: 20px 0 0 0;
+  }
+
+  .testi-content .testi-box {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 425px) {
+  .mt-10 {
+    margin-top: 10px;
+  }
+
+  .subcribe-form {
+    input {
+      width: 100%;
+    }
+  }
+
+  .features-img:after {
+    height: 100%;
+    width: 100%;
+  }
+
+  .features-content {
+    padding: 30px 0;
+  }
+
+  .home-6-title {
+    font-size: 34px;
+  }
+
+  .home-6-bg {
+    height: auto;
+  }
+
+  .home-4-bg {
+    height: auto;
+  }
+}

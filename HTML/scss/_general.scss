@@ -1,0 +1,25 @@
+//
+// general.scss
+//
+
+body {
+  font-family: $font-family-base;
+  color: $dark;
+}
+
+a {
+  text-decoration: none !important;
+  outline: none;
+}
+
+p {
+  line-height: 2;
+}
+
+.font-primary {
+  font-family: $font-family-base;
+}
+
+.row>* {
+  position: relative;
+}
