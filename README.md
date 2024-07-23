@@ -1,78 +1,65 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+### Zooki 
+Responsive Landing Page Template built with most popular front-end framework Bootstrap version 4.2.1. It would be perfect for an app product showcase, startups, personal websites, and even web agencies. You will be easily able to customize it for your needs. It looks beautiful with all sizes, be it a Monitors, laptop screen, iPad, iPhone, Android Mobile or tablets. It has everything you need to launch your site in a couple of hours!
+### FEATURES:
++ Based on Bootstrap 4.2.1
++ 8 Different Home Pages
++ Built with HTML5 & CSS3
++ Font Icons
++ Google Fonts
++ Easy to Customize
++ Clean code
++ Modern Design
++ Log In Page Included
++ Sign Up Page Included
++ Forgot Password Page Included
++ And much more…
+### Structure
+I have tried to follow the standards and modular structure while developing the theme. Following sections are explaining the theme File & Folder, structure, html file struture and plugins.
+### File & Folder Structure
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+- **html files**: Contains all the HTML files for the project.
+- **css/**: Contains all the compiled CSS files used for styling the project.
+- **scss/**: Contains all the SCSS (Sass) files used for more advanced styling and pre-processing.
+- **fonts/**: Contains all the font files used in the project.
+- **images/**: Contains all the image files used in the project.
+- **js/**: Contains all the common JavaScript files used for adding interactivity and functionality to the project.
+###  HTML Structure
+  
+![image](https://github.com/user-attachments/assets/bfb02b31-db1e-4d4d-bd29-df9f4fa89519)
+### CSS
+Files are explained below: 
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+| File               | Description                                                                                         |
+|--------------------|-----------------------------------------------------------------------------------------------------|
+| bootstrap.min.css  | Zooki uses Bootstrap v5.3.0-alpha1. The core Bootstrap file is being used in all the pages.         |
+| style.css          | This file contains all common styles for all the pages.                                             |
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Javascript
+Files are explained below:
+| File               | Description                                                                                         |
+|--------------------|-----------------------------------------------------------------------------------------------------|                                            
+| app.js             | This is the main JavaScript file.  
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+  ### Credits & Official Documentation
+  We've used the following resources as listed. These are some awesome creation and we are thankful to the community.
+ + Bootstrap
+ + Material Design Icons
+ + Simple Text Rotate
+ + Popper
+ + Masonry Js
+ ### Dark Mode
+  To enable dark mode, keep your body element with the data attribute `data-bs-theme="dark"`.
 
-## Learning Laravel
+For example, use the following HTML to have a dark layout:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<html data-bs-theme="dark">
+  
+### RTL Mode
+To have RTL mode enabled, replace the reference of bootstrap.rtl.min.css and in the <html lang="en" dir="rtl">. Because it will set to default the light LTR version.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## index 1
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Screenshot 2024-07-23 at 20-01-51 Zooki - Responsive Bootstrap 5 Landing Page Template](https://github.com/user-attachments/assets/8cdc1359-cec1-4564-a43f-d3dc5a8c088e)
